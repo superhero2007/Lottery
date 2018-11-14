@@ -1,0 +1,27 @@
+.app__lottery__edit__view {
+  .imageTable {
+    background: transparent;
+    height: 100%;
+    top: 0;
+
+    td {
+      border-color: $black;
+      cursor: pointer;
+      padding: 0;
+
+      &.converted {
+        background: $black;
+        opacity: 0.5;
+      }
+
+      &.selected {
+        background: $yellow;
+        opacity: 0.5;
+      }
+    }
+  }
+
+  .image-container {
+    display: grid;
+  }
+}

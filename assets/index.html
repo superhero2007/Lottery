@@ -1,0 +1,50 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Lottery</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0">
+  <link rel="shortcut icon" href="assets/media/favicon.ico">
+
+  <!--begin::Web font -->
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
+  <script>
+    WebFont.load({
+      google: {"families":["Poppins:300,400,500,600,700","Roboto:300,400,500,600,700"]},
+      active: function() {
+        sessionStorage.fonts = true;
+      }
+    });
+  </script>
+
+  <!--end::Web font -->
+
+  <!--begin::Global Theme Styles -->
+  <link href="assets/vendors/base/vendors.bundle.css" rel="stylesheet" type="text/css" />
+
+  <link href="assets/demo/default/base/style.bundle.css" rel="stylesheet" type="text/css" />
+  <!--end::Global Theme Styles -->
+</head>
+<body class="m-page--fluid m--skin- m-content--skin-light2 m-header--fixed m-header--fixed-mobile m-aside-left--enabled m-aside-left--skin-dark m-aside-left--fixed m-aside-left--offcanvas m-footer--push m-aside--offcanvas-default">
+  <div id="react">
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+      <defs>
+        <filter id="gooey">
+          <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"></feGaussianBlur>
+          <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7"
+                         result="goo"></feColorMatrix>
+          <feBlend in="SourceGraphic" in2="goo"></feBlend>
+        </filter>
+      </defs>
+    </svg>
+
+    <!-- begin::Quick Nav -->
+
+    <!--begin::Global Theme Bundle -->
+    <script src="assets/vendors/base/vendors.bundle.js" type="text/javascript"></script>
+    <script src="assets/demo/default/base/scripts.bundle.js" type="text/javascript"></script>
+
+    <!--end::Global Theme Bundle -->
+  </div>
+</body>
+</html>

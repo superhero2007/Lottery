@@ -1,0 +1,12 @@
+// *** Variables
+@import 'variables/app';
+
+// *** Pages
+@import 'pages/login';
+
+// *** Components
+@import 'components/loader';
+@import 'components/header';
+@import 'components/footer';
+@import 'components/lottery_edit_view';
+@import 'components/lottery_list_view';
